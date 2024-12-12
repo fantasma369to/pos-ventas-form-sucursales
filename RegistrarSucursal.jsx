@@ -51,7 +51,7 @@ export function RegistrarSucursal() {
                   className="form__field"
                   defaultValue={
                     accion === "Editar"
-                      ? sucursalesItemSelect?.cajas[0]?.direccion_fiscal
+                      ? sucursalesItemSelect?.direccion_fiscal
                       : ""
                   }
                   type="text"
